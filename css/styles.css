@@ -16,52 +16,115 @@ nav li:nth-child(2){
 
 /* Exercice 03 */
 
+.exercice03 blockquote::first-line{
+    font-weight: bold;
+    color: red;
+}
 
 /* Exercice 04 */
 
+.exercice04 p:last-child{
+    color: red
+}
 
 /* Exercice 05 */
 
+.exercice05 a[href^= "https://"]::after{
+    content: 'open_in_new';
+    display: inline-block;
+    font-family: 'Material Symbols Outlined';
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-left: 5px;
+}
 
 /* Exercice 06 */
 
+.exercice06 li:nth-child(even){
+    background-color: red;
+}
 
 /* Exercice 07 */
 
+.exercice07 li:nth-child(odd){
+    background-color: red;
+}
 
 /* Exercice 08 */
 
+.exercice08 li:nth-child(-n+3){
+    background-color: red;
+}
 
 /* Exercice 09 */
 
+.exercice09 li:nth-child(100n-1){
+    background-color: red;
+}
 
 /* Exercice 10 */
 
+.exercice10 li:nth-child(n+14):not(:nth-child(n+24)){
+    background-color: red;
+}
 
 /* Exercice 11 */
 
+.exercice11 ul{
+    border: red solid 3px;
+}
 
 /* Exercice 12 */
 
+.exercice12 > ul:hover{
+    border: red solid 3px;
+}
 
 /* Exercice 13 */
 
+.exercice13 img[src$="jpg"]{
+    border: red solid 3px;
+}
 
 /* Exercice 14 */
 
+nav a:hover{
+    background-color: #BF2A2A;
+    border: black solid 3px;
+    color: black;
+}
 
 /* Exercice 15 */
 
+h2::selection{
+    background-color: black;
+    color: white;
+}
+
+p::selection{
+    background-color: grey;
+    color: white;
+}
 
 /* Exercice 16 */
+
+.exercice16 p:not(p[lang="fr"]){
+    color: red;
+}
 
 
 /* Exercice 17 */
 
+input:checked+label{
+    color: red;
+}
 
 /* Exercice 18 */
 
 
+h1 > .word >.char:last-child{
+    color: #640101;
+}
 
 
 
